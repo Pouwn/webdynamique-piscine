@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE petitdej SYSTEM "3.dtd">
+<listeCV>
+  <CV>
+    <medecin>
+      <nom> Abessolo</nom>
+      <prenom> Christ</prenom>
+      <description> Dr </description>
+      <domaine> généraliste</domaine>
+      <experience> en service depuis 2 ans </experience>
+    </medecin>
+  </CV>
+  <CV>
+    <medecin>
+      <nom> oiseau</nom>
+      <prenom> titi</prenom>
+      <description> Dr </description>
+      <domaine> ophtalmologue</domaine>
+      <experience>Pratique l'opération laser depuis 5 ans</experience>
+    </medecin>
+  </CV>
+  </listeCV>
