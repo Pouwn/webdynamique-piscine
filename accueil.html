@@ -28,8 +28,12 @@ background-color:#ADD8E6;
   text-align: center; }
 #midlefooter {
   border-right: 1px solid antiquewhite;
-  border-left: 1px solid antiquewhite;
-  
+  border-left: 1px solid antiquewhite;  
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: black;
+    background-color: whitesmoke;
+
 }
 </style>
 <script type="text/javascript">
@@ -39,26 +43,32 @@ background-color:#ADD8E6;
 <form id="general">
 <div class="container-fluid"id="header">
 	<div class="row">
-    <table border="1px">
-    <div class="col"><td>
-      <img src="image/omnes.jpg" width="200" height="200"></td>
+    <ul class="nav nav-pills">
+    <div class="col"><li class="nav-item">
+      <a class="nav-link active" aria-current="page" href="#">
+    
+      <img src="image/omnes.jpg" width="200" height="200"></a></li>
     </div>
-    <div class="col"><td>accueil</td></div>
-    <div class="col"><td>mon compte</td></div>
-    <div class="col"><td>tout parcourir</td></div>
-    <div class="col"><td>Rendez-vous</td></div>
-    </table>
+   
+
+    <div class="col">      <li class="nav-item">
+      <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+    </li></div>
+    <div class="col">      <li class="nav-item">
+      <a class="nav-link active" aria-current="page" href="#">mon compte</a>
+    </li></div>
+    <div class="col">      <li class="nav-item">
+      <a class="nav-link active" aria-current="page" href="#">tout parcourir</a>
+    </li></div>
+    <div class="col">      <li class="nav-item">
+      <a class="nav-link active" aria-current="page" href="#">rendez-vous</a>
+    </li></div>
+  </ul>
   </div>
 </div>
-
+<!-- fin du header -->
 	
-<div id="options"> 
-	<input id="bleu" type="button" onclick="window.location.href = 'accueil.html';" value="Accueil"> 
-	<input id="bleu" type="button" onclick="window.location.href = 'toutparcourir.html'; "value="Tout Parcourir"> 
-	<input id="bleu" type="button" onclick="window.location.href = 'recherche.html';" value="Recherche"> 
-	<input id="bleu" type="button" onclick="window.location.href = 'rendezvous.html';" value="Rendez-vous">
-	<input id="bleu" type="button" onclick="window.location.href = 'votrecompte.html';" value="Votre Compte">
-</div>
+
 <div id="section">
 </div>
 
