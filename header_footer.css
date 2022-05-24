@@ -1,0 +1,17 @@
+#header{text-align:center;
+    background-color: #004AAD;
+color: antiquewhite;
+}
+#footer {
+    background-color: #004AAD;
+    color: antiquewhite;
+    text-align: center; }
+  #midlefooter {
+    border-right: 1px solid antiquewhite;
+    border-left: 1px solid antiquewhite;  
+  }
+  .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: black;
+    background-color: whitesmoke;
+    border-radius: 10%;
+}

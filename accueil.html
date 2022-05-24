@@ -4,63 +4,26 @@
 <meta charset="utf-8">
 <title> Page d'Accueil </title>
 </head>
-<body>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-<style type="text/css">
-
-#general{text-align:center;
-}
-#header{text-align:center;
-		background-color: #004AAD;
-    color: antiquewhite;
-}
-#img{
-display:inline-block;
-
-}
-#bleu{
-background-color:#ADD8E6;
-
-}
-#footer {
-  background-color: #004AAD;
-  color: antiquewhite;
-  text-align: center; }
-#midlefooter {
-  border-right: 1px solid antiquewhite;
-  border-left: 1px solid antiquewhite;  
-}
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-    color: black;
-    background-color: whitesmoke;
-
-}
-</style>
-<script type="text/javascript">
-
-
-</script>
+<link rel="stylesheet" href="header_footer.css">
+<body>
 <form id="general">
 <div class="container-fluid"id="header">
-	<div class="row">
-    <ul class="nav nav-pills">
+	<div class="row ">
+    <ul class="nav nav-pills align-items-center">
     <div class="col"><li class="nav-item">
-      <a class="nav-link active" aria-current="page" href="#">
-    
-      <img src="image/omnes.jpg" width="200" height="200"></a></li>
+      <img src="image/LOGO.png" width="200" height="200"></li>
     </div>
-   
-
-    <div class="col">      <li class="nav-item">
+    <div class="col offset-1">      <li class="nav-item">
       <a class="nav-link active"  href="#">Accueil</a>
     </li></div>
-    <div class="col">      <li class="nav-item">
+    <div class="col offset-1">      <li class="nav-item">
       <a class="nav-link active"  href="#">mon compte</a>
     </li></div>
-    <div class="col">      <li class="nav-item">
+    <div class="col offset-1">      <li class="nav-item">
       <a class="nav-link active"  href="#">tout parcourir</a>
     </li></div>
-    <div class="col">      <li class="nav-item">
+    <div class="col offset-1">      <li class="nav-item">
       <a class="nav-link active"  href="#">rendez-vous</a>
     </li></div>
   </ul>
@@ -75,18 +38,18 @@ background-color:#ADD8E6;
 </form>
 <div class="container">
 	<div class="row">
-		<div class="offset-4">
+		<div class="col-sm-12 col-md-8 col-lg-6 offset-4 justify-content-center">
 
-<div id="carousel-fluid" class="carousel slide" data-bs-ride="carousel">
+<div id="carousel" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active" data-bs-interval="10000">
-      <img src="image/doc3.webp" class="img-fluid" alt="docteur3" height="400">
+      <img src="image/doc3.webp" class="img-fluid" alt="docteur3" height="400" width="300">
     </div>
     <div class="carousel-item" data-bs-interval="2000">
-      <img src="image/doc2.png" class="img-fluid" alt="docteur2" height="400">
+      <img src="image/doc2.png" class="img-fluid" alt="docteur2" height="400" width="300">
     </div>
     <div class="carousel-item">
-      <img src="image/doc1.png" class="img-fluid" alt="docteur1" height="400">
+      <img src="image/doc1.png" class="img-fluid" alt="docteur1" height="400" width="300">
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
