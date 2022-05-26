@@ -21,10 +21,10 @@
       <a class="nav-link active"  href="#">mon compte</a>
     </li></div>
     <div class="col offset-1">      <li class="nav-item">
-      <a class="nav-link active" href="" onClick="ouvrirFenetre('/popup/toutparcourir.html');">tout parcourir</a>
+      <a class="nav-link active" href="" onClick="ouvrirFenetre('popup/toutparcourir.html');">tout parcourir</a>
     </li></div>
     <div class="col offset-1">      <li class="nav-item">
-      <a class="nav-link active"  href="#">rendez-vous</a>
+      <a class="nav-link active"  href="#"><i class="bi bi-calendar-check"></i>rendez-vous</a>
     </li></div>
   </ul>
   </div>
@@ -88,7 +88,10 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" 
 integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
 
-function ouvrirFenetre(url){
+
+</script>
+<script>
+  function ouvrirFenetre(url){
  var win = window.open(url, "popup", "toolbar=0, location=0, directories=0, status=0, scrollbars=0, resizable=0, copyhistory=0, width=500, height=350,screenX=200,screenY=200");
  win.focus();
  }
