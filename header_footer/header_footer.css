@@ -20,3 +20,8 @@ color: antiquewhite;
   background-color: whitesmoke;
   border-radius: 10%;
 }
+.dropdown, .dropdown-center, .dropend, .dropstart, .dropup, .dropup-center {
+  color: black;
+  background-color: whitesmoke;
+  border-radius: 10%;
+}
