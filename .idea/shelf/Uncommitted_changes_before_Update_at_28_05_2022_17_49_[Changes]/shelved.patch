@@ -1,0 +1,23 @@
+Index: test.html
+===================================================================
+diff --git a/test.html b/test.html
+deleted file mode 100644
+--- a/test.html	(revision 788be2205bf340ed2a7ab57056e4899b66c652f2)
++++ /dev/null	(revision 788be2205bf340ed2a7ab57056e4899b66c652f2)
+@@ -1,15 +0,0 @@
+-<!DOCTYPE html>
+-<html>
+-<head>
+-	<meta charset="utf-8">
+-	<meta name="viewport" content="width=device-width, initial scaled=1">
+-	<title>
+-		test admin xml
+-	</title>
+-<link href="" rel="stylesheet" type="text/css" />
+-
+-</head>
+-<body>
+-<h1>test</h1>
+-</body>
+-</html>
+\ No newline at end of file
