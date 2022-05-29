@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7af96541-c778-4d9b-ac43-07fd8945852f" name="Changes" comment="Je fais votre job">
-      <change afterPath="$PROJECT_DIR$/profilclient/profil.css" afterDir="false" />
+    <list default="true" id="7af96541-c778-4d9b-ac43-07fd8945852f" name="Changes" comment="Update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/connection/connexion.php" beforeDir="false" afterPath="$PROJECT_DIR$/connection/connexion.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/LOGO .png" beforeDir="false" afterPath="$PROJECT_DIR$/images/LOGO.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/profilclient/profil_client.php" beforeDir="false" afterPath="$PROJECT_DIR$/profilclient/profil_client.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +68,7 @@
       <workItem from="1653784252444" duration="14000" />
       <workItem from="1653784303482" duration="316000" />
       <workItem from="1653830468969" duration="933000" />
-      <workItem from="1653845606630" duration="5096000" />
+      <workItem from="1653845606630" duration="6241000" />
     </task>
     <task id="LOCAL-00001" summary="add bdd">
       <created>1653753341409</created>
@@ -105,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653849103516</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Update">
+      <created>1653850838094</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1653850838096</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,6 +135,7 @@
     <MESSAGE value="modif inscription" />
     <MESSAGE value="image added" />
     <MESSAGE value="Je fais votre job" />
-    <option name="LAST_COMMIT_MESSAGE" value="Je fais votre job" />
+    <MESSAGE value="Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update" />
   </component>
 </project>

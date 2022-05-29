@@ -27,7 +27,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     if (password_verify($password, $hashed_password)) {
                         session_start();
                         $_SESSION["client"] = $Email_client;
-                        header("location: /webdynamque-piscine/profilclient/profil_client.php");
+                        header("location: ../profilclient/profil_client.php");
                     } else {
                         $error = "Mot de passe incorrect";
                     }

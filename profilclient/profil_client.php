@@ -1,12 +1,11 @@
 <?php
-try{
-    $db = new PDO('mysql:host=localhost; dbname=ProjetWeb', 'root', 'root');
-}
-catch(Exception $e)
-{
-    die('Erreur : '.$e->getMessage());
-}
+
+include("../bdd/config.php");
+session_start();
+
 ?>
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -49,22 +48,22 @@ catch(Exception $e)
 
 
 <div id="continfo" >
-    <img class="img" src="../images/logo2.png">
+    <img class="img" src="../images/logonoir.png">
     <div class="info">
         <?php
-        $sql = $db->prepare('SELECT Nom_Client FROM Client where Email_client=$_POST["email"]');
+        $sql = $db->prepare('SELECT Nom_Client FROM Client where Email_client=$_SESSION["client"]');
         $sql->execute();
         $nom = $sql->fetchAll(PDO::FETCH_COLUMN);
         echo $nom[0];
         ?><br>
         <?php
-        $sql = $db->prepare('SELECT Prenom_Client FROM Client');
+        $sql = $db->prepare('SELECT Prenom_Client FROM Client where Email_client=$_SESSION["client"]');
         $sql->execute();
         $prenom = $sql->fetchAll(PDO::FETCH_COLUMN);
         echo $prenom[0];
         ?><br>
         <?php
-        $sql = $db->prepare('SELECT Email_client FROM Client');
+        $sql = $db->prepare('SELECT Email_client FROM Client where Email_client=$_SESSION["client"]');
         $sql->execute();
         $email = $sql->fetchAll(PDO::FETCH_COLUMN);
         echo $email[0];
