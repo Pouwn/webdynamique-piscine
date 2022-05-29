@@ -57,6 +57,7 @@ session_start();
         $valueT = mysqli_fetch_assoc($result);
         $nom = $valueT["Nom_Client"];
         echo $nom;
+        echo "Canestin";
         ?><br>
 
 
