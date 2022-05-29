@@ -52,10 +52,12 @@ session_start();
     <div class="info">
         <?php
 
-        $reponse = $db->query('SELECT * FROM Client where Email_client="abessolo@gmail.com"');
-        $donnees = $reponse->fetch();
-        echo $donnees['Nom_Client'];
+        $sql = $db->prepare('SELECT Nom_Client FROM Client where Email_client="abessolo@gmail.com"');
+        $sql->execute();
+        $nom = $sql->fetchAll(PDO::FETCH_COLUMN);
+        echo $nom;
         ?><br>
+
 
 
     </div>
