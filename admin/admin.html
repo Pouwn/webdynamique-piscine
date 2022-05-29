@@ -8,27 +8,30 @@
 <link rel="stylesheet" href="../header_footer/header_footer.css">
 <body>
 <form id="general">
-<div class="container-fluid"id="header">
-	<div class="row ">
-    <ul class="nav nav-pills align-items-center">
-    <div class="col"><li class="nav-item">
-      <img src="../image/LOGO.png" width="200" height="200"></li>
-    </div>
-    <div class="col offset-1">      <li class="nav-item">
-      <a class="nav-link active"  href="#">Accueil</a>
-    </li></div>
-    <div class="col offset-1">      <li class="nav-item">
-      <a class="nav-link active"  href="#">mon compte</a>
-    </li></div>
-    <div class="col offset-1">      <li class="nav-item">
-      <a class="nav-link active"  href="#">tout parcourir</a>
-    </li></div>
-    <div class="col offset-1">      <li class="nav-item">
-      <a class="nav-link active"  href="#">rendez-vous</a>
-    </li></div>
-  </ul>
-  </div>
-</div>
+  <div class="container-fluid"id="header">
+    <div class="row ">
+      <ul class="nav nav-pills align-items-center">
+      <div class="col"><li class="nav-item">
+        <img src="images\LOGO.png" width="200" height="200"></li>
+      </div>
+      <div class="col offset-1">      <li class="nav-item">
+        <a class="nav-link active"  href="index.html">Accueil</a>
+      </li></div>
+      <div class="col offset-1">      <li class="nav-item">
+        <a class="nav-link active"  href="#">mon compte</a>
+      </li></div>
+      <div class="col offset-1">      <li class="nav-item">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">tout parcourir</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">médecin généraliste</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="nav-link active" href="..\popup\popupaccueil.html" onClick="ouvrirFenetre('');">médecin spécialiste</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="..\Labo\labo.html">laboratoire</a></li>
+          </ul>
+        </li>
+      </li></div>
 <!-- fin du header -->
 <div id='content'>
   <form method="POST" action="create.php">
