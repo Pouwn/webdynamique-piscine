@@ -1,145 +1,19 @@
 <?php
-try{
-    $db = new PDO('mysql:host=localhost; dbname=ProjetWeb', 'root', 'root');
-}
-catch(Exception $e)
-{
-    die('Erreur : '.$e->getMessage());
-}
+
+include("../bdd/config.php");
+session_start();
+
 ?>
+
+
 <!DOCTYPE html>
 <html>
 <head>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="stylesheet" href="header_footer.css">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="../header_footer/header_footer.css">
+    <link rel="stylesheet" href="profil.css">
     <meta charset="UTF-8">
 
-    <style>
-
-        #hey{
-
-            border-radius: 30px;
-            padding-top:0px;
-            background-color: #F5F5F5;
-            height: 500px;
-            width: 550px;
-
-
-        }
-        h1{
-            text-align: center;
-            color: #004AAD;
-            font-family: 'Times New Roman', Times, serif;
-
-        }
-
-        #continfo {
-
-            height: 170px;
-            width: 500px;
-            border-radius: 30px;
-            margin-top: 80px;
-            margin-left: auto;
-            margin-right: auto;
-            padding-left: auto;
-            padding-right: auto;
-            text-align: center;
-            box-shadow: 3px 3px 3px 3px rgb(204, 204, 204);
-            align-items: center;
-            padding-top: 40px;
-        }
-
-        .img{
-            border:solid;
-            margin-left:30px;
-            margin-bottom:80px;
-            float:left;
-            width: 30%;
-            height:80%
-
-
-        }
-
-        .info {
-
-            padding-bottom: 0%;
-            text-align: justify;
-            margin-left: 30px;
-            margin-right:90px;
-            float: right;
-        }
-
-        .cont1 {
-            border:solid;
-            height: 500px;
-            width: 500px;
-            margin: auto;
-            text-align: center;
-            padding-top: 100px;
-            margin-top: 50px;
-        }
-
-
-        .addm{
-            margin:auto;
-            border:solid;
-            height: 40px;
-            width: 400px;
-            background-color: #004AAD;
-            border-radius: 30px;
-            color:aliceblue;
-            padding: auto;
-
-        }
-
-        .addm:hover {
-            background-color: #004AAD;
-            color:white;
-        }
-
-        span {
-            border:solid;
-            margin: auto;
-            padding-bottom: auto;
-            padding: auto;
-            vertical-align:middle;
-            font-size: 20px;
-            font-family: 'Times New Roman', Times, serif;
-        }
-        #but1{
-            margin-left:34%;
-
-            width:500px;
-            height:60px;
-            background-color:#004AAD;
-            color:white;
-            border-radius:60px;
-        }
-
-        #but2{
-            margin-left:34%;
-            margin-bottom:130px;
-            width:200px;
-            height:60px;
-            background-color:#004AAD;
-            color:white;
-            border-radius:60px;
-
-        }
-
-        #but3{
-            margin-left:85px;
-            margin-bottom:130px;
-
-            text-align:center;
-            width:200px;
-            height:60px;
-            background-color:#004AAD;
-            color:white;
-            border-radius:60px;
-        }
-    </style>
 </head>
 <body>
 
@@ -151,7 +25,7 @@ catch(Exception $e)
         <div class="row ">
             <ul class="nav nav-pills align-items-center">
                 <div class="col"><li class="nav-item">
-                        <img src="image/LOGO.png" width="200" height="200"></li>
+                        <img src="../images/LOGO.png" width="200" height="200"></li>
                 </div>
                 <div class="col offset-1">      <li class="nav-item">
                         <a class="nav-link active"  href="#">Accueil</a>
@@ -174,26 +48,16 @@ catch(Exception $e)
 
 
 <div id="continfo" >
-    <img class="img" src="image/logo2.png">
+    <img class="img" src="../images/logonoir.png">
     <div class="info">
         <?php
-        $sql = $db->prepare('SELECT Nom_Client FROM Client where Email_client=$_POST["email"]');
-        $sql->execute();
-        $nom = $sql->fetchAll(PDO::FETCH_COLUMN);
-        echo $nom[0];
+
+        $reponse = $db->query('SELECT * FROM Client where Email_client="abessolo@gmail.com"');
+        $donnees = $reponse->fetch();
+        echo $donnees['Nom_Client'];
         ?><br>
-        <?php
-        $sql = $db->prepare('SELECT Prenom_Client FROM Client');
-        $sql->execute();
-        $prenom = $sql->fetchAll(PDO::FETCH_COLUMN);
-        echo $prenom[0];
-        ?><br>
-        <?php
-        $sql = $db->prepare('SELECT Email_client FROM Client');
-        $sql->execute();
-        $email = $sql->fetchAll(PDO::FETCH_COLUMN);
-        echo $email[0];
-        ?>
+
+
     </div>
 </div>
 
