@@ -1,7 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7af96541-c778-4d9b-ac43-07fd8945852f" name="Changes" comment="" />
+    <list default="true" id="7af96541-c778-4d9b-ac43-07fd8945852f" name="Changes" comment="add bdd">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ac.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/Accueil1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/LOGO.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/Medecin_Generaliste_CV_01 (1).svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/Medecin_Generaliste_CV_01.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/TN1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/acceuil.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/campus-parisien-ece.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/campus.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/depositphotos_16872383-stock-photo-scientists-working-at-the-laboratory.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/depositphotos_74956115-stock-photo-doctors-office-doctor-waiting-room.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/depositphotos_80150956-stock-photo-confident-female-doctor-at-office.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/doc1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/doc2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/doc3.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/f2f697363ea78141cb664a2a9c91143f.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/icon/align-justify.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/icon/envelope-of-white-paper.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/icon/linkedin-sign.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/icon/microphone-black-shape.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/icon/picture.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/icon/remove-symbol.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/icon/right-arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/icon/speech-bubbles-comment-option.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/icon/telephone-handle-silhouette.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/icon/utilisateur.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/image accueil" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/logo2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/med1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/med2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/med3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/med4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/omnes.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/sante.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/savoir1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/sourire-docteur-masculin-image-sous-licence_csp1500366.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/welcome.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,7 +77,19 @@
       <option name="presentableId" value="Default" />
       <updated>1653752297676</updated>
       <workItem from="1653752299648" duration="728000" />
+      <workItem from="1653753042227" duration="489000" />
+      <workItem from="1653753589231" duration="1483000" />
+      <workItem from="1653784252444" duration="14000" />
+      <workItem from="1653784303482" duration="316000" />
     </task>
+    <task id="LOCAL-00001" summary="add bdd">
+      <created>1653753341409</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1653753341409</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -52,5 +105,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add bdd" />
+    <option name="LAST_COMMIT_MESSAGE" value="add bdd" />
   </component>
 </project>
