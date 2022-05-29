@@ -52,10 +52,14 @@ session_start();
     <div class="info">
         <?php
 
-        $reponse = $db->query('SELECT * FROM Client where Email_client="abessolo@gmail.com"');
-        $donnees = $reponse->fetch();
-        echo $donnees['Nom_Client'];
+        $req = "SELECT Nom_Client FROM Client WHERE Email_client='abessolo@gmail.com' ";
+        $result = mysqli_query($db, $req);
+        $valueT = mysqli_fetch_assoc($result);
+        $nom = $valueT["Nom_Client"];
+        echo $nom;
+        echo "Canestin";
         ?><br>
+
 
 
     </div>
