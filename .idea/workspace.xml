@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7af96541-c778-4d9b-ac43-07fd8945852f" name="Changes" comment="image added">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bdd/config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/connection/con.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/connection/connexion.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connection/connexion.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/connection/connexion.php" beforeDir="false" afterPath="$PROJECT_DIR$/connection/connexion.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connection/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/connection/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inscription/inscription.php" beforeDir="false" afterPath="$PROJECT_DIR$/inscription/inscription.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +18,13 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -34,6 +45,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "/Users/christrova/PhpstormProjects/webdynamique-piscine",
+    "list.type.of.created.stylesheet": "CSS",
     "settings.editor.selected.configurable": "web-ide.project.structure",
     "vue.rearranger.settings.migration": "true"
   }
@@ -60,6 +72,7 @@
       <workItem from="1653784252444" duration="14000" />
       <workItem from="1653784303482" duration="316000" />
       <workItem from="1653830468969" duration="933000" />
+      <workItem from="1653845606630" duration="3369000" />
     </task>
     <task id="LOCAL-00001" summary="add bdd">
       <created>1653753341409</created>

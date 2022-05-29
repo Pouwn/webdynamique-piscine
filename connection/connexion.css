@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.contain{
+    width: 800px;
+    height: 400px;
+    margin-top: 7%;
+    display: flex;
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px 5px #004AAD;
+}
+
+.gauche{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px 0 0 15px;
+    width: 400px;
+    background-color: #004AAD;
+}
+
+.droite{
+    border-radius: 15px 0 0 15px;
+    width: 400px;
+}
+
+.droite img{
+    border-radius: 0 15px 15px 0;
+    width: 400px;
+    height: 400px;
+}
+
+.but{
+    display: flex;
+    justify-content: center;
+}
