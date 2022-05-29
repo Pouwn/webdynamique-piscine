@@ -6,7 +6,7 @@
     <body>
         <div id="contener">
 
-            <form action="connexion.php" method="POST">
+            <form action="con.php" method="POST">
                 <h1>Connexion</h1>
                 
                 <label><b>Email</b></label>

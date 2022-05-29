@@ -16,12 +16,12 @@ if($_SERVER["REQUEST_METHOD"] == "POST")
             //enregistrement des données
             try{
               $db = new PDO('mysql:host=localhost; dbname=ProjetWeb', 'root', 'root');
-          }
-          catch(Exception $e)
-          {
+            }
+            catch(Exception $e)
+            {
             die('Erreur : '.$e->getMessage());
-          }
-        
+            }
+            $password = password_hash($_POST["pswd1"], PASSWORD_DEFAULT);
             
               $sql = "INSERT INTO `Client`(`Nom_Client`, `Prenom_Client`, `Sexe_Client`, `Date_de_naissance`, `Mdp_client`, `Email_client`, `Num_telephone`, `Profession`) 
               VALUES ( :nom, :firstname, :sexe, :birthdate, :pswd , :email, :num, :profession)";
@@ -32,7 +32,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST")
             $query->bindValue(":firstname", $_POST["firstname"],PDO::PARAM_STR);
             $query->bindValue(":sexe", $_POST["sexe"],PDO::PARAM_STR);
             $query->bindValue(":birthdate", $_POST["birthdate"],PDO::PARAM_STR);
-            $query->bindValue(":pswd",$_POST["pswd1"],PDO::PARAM_STR);
+            $query->bindValue(":pswd",$password,PDO::PARAM_STR);
             $query->bindValue(":email", $_POST["email"],PDO::PARAM_STR);
             $query->bindValue(":num", $_POST["num"],PDO::PARAM_STR);
             $query->bindValue(":profession", $_POST["profession"],PDO::PARAM_STR);

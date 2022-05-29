@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7af96541-c778-4d9b-ac43-07fd8945852f" name="Changes" comment="image added">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="7af96541-c778-4d9b-ac43-07fd8945852f" name="Changes" comment="last taff">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connection/con.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +12,13 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -34,6 +39,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "/Users/christrova/PhpstormProjects/webdynamique-piscine",
+    "list.type.of.created.stylesheet": "CSS",
     "settings.editor.selected.configurable": "web-ide.project.structure",
     "vue.rearranger.settings.migration": "true"
   }
@@ -60,6 +66,7 @@
       <workItem from="1653784252444" duration="14000" />
       <workItem from="1653784303482" duration="316000" />
       <workItem from="1653830468969" duration="933000" />
+      <workItem from="1653845606630" duration="9268000" />
     </task>
     <task id="LOCAL-00001" summary="add bdd">
       <created>1653753341409</created>
@@ -89,7 +96,49 @@
       <option name="project" value="LOCAL" />
       <updated>1653814184322</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Je fais votre job">
+      <created>1653849103516</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1653849103516</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Update">
+      <created>1653850838094</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1653850838096</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Update">
+      <created>1653851935215</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1653851935216</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Update">
+      <created>1653852923021</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1653852923026</updated>
+    </task>
+    <task id="LOCAL-00009" summary="last taff">
+      <created>1653853353868</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1653853353868</updated>
+    </task>
+    <task id="LOCAL-00010" summary="last taff">
+      <created>1653854041816</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1653854041817</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,6 +160,9 @@
     <MESSAGE value="espace perso client" />
     <MESSAGE value="modif inscription" />
     <MESSAGE value="image added" />
-    <option name="LAST_COMMIT_MESSAGE" value="image added" />
+    <MESSAGE value="Je fais votre job" />
+    <MESSAGE value="Update" />
+    <MESSAGE value="last taff" />
+    <option name="LAST_COMMIT_MESSAGE" value="last taff" />
   </component>
 </project>
