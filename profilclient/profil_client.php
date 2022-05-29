@@ -51,23 +51,12 @@ session_start();
     <img class="img" src="../images/logonoir.png">
     <div class="info">
         <?php
-        $sql = $db->prepare('SELECT Nom_Client FROM Client where Email_client="abessolo@gmail.com"');
-        $sql->execute();
-        $nom = $sql->fetchAll(PDO::FETCH_COLUMN);
-        echo $nom[0];
+
+        $reponse = $db->query('SELECT * FROM Client where Email_client="abessolo@gmail.com"');
+        $donnees = $reponse->fetch();
+        echo $donnees['Nom_Client'];
         ?><br>
-        <?php
-        $sql = $db->prepare('SELECT Prenom_Client FROM Client where Email_client="abessolo@gmail.com"');
-        $sql->execute();
-        $prenom = $sql->fetchAll(PDO::FETCH_COLUMN);
-        echo $prenom[0];
-        ?><br>
-        <?php
-        $sql = $db->prepare('SELECT Email_client FROM Client where Email_client="abessolo@gmail.com"');
-        $sql->execute();
-        $email = $sql->fetchAll(PDO::FETCH_COLUMN);
-        echo $email[0];
-        ?>
+
 
     </div>
 </div>
