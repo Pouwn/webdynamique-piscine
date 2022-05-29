@@ -61,7 +61,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     <div class="gauche">
 
-        <form action="">
+        <form method="post">
             <label for="email">Email</label> <br>
             <input type="text" placeholder="nom@exemple.com" id="email" name="Email"> <br><br>
 

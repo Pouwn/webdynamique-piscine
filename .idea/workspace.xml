@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7af96541-c778-4d9b-ac43-07fd8945852f" name="Changes" comment="image added">
-      <change afterPath="$PROJECT_DIR$/bdd/config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connection/con.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connection/connexion.css" afterDir="false" />
+    <list default="true" id="7af96541-c778-4d9b-ac43-07fd8945852f" name="Changes" comment="Je fais votre job">
+      <change afterPath="$PROJECT_DIR$/profilclient/profil.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/connection/connexion.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/connection/connexion.php" beforeDir="false" afterPath="$PROJECT_DIR$/connection/connexion.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/connection/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/connection/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inscription/inscription.php" beforeDir="false" afterPath="$PROJECT_DIR$/inscription/inscription.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profilclient/profil_client.php" beforeDir="false" afterPath="$PROJECT_DIR$/profilclient/profil_client.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +68,7 @@
       <workItem from="1653784252444" duration="14000" />
       <workItem from="1653784303482" duration="316000" />
       <workItem from="1653830468969" duration="933000" />
-      <workItem from="1653845606630" duration="3369000" />
+      <workItem from="1653845606630" duration="5096000" />
     </task>
     <task id="LOCAL-00001" summary="add bdd">
       <created>1653753341409</created>
@@ -102,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653814184322</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Je fais votre job">
+      <created>1653849103516</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1653849103516</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,6 +127,7 @@
     <MESSAGE value="espace perso client" />
     <MESSAGE value="modif inscription" />
     <MESSAGE value="image added" />
-    <option name="LAST_COMMIT_MESSAGE" value="image added" />
+    <MESSAGE value="Je fais votre job" />
+    <option name="LAST_COMMIT_MESSAGE" value="Je fais votre job" />
   </component>
 </project>
