@@ -31,21 +31,15 @@
 </div>
 <!-- fin du header -->
 <div id='content'>
-    <table id='medecin' cellpadding='10px' style="text-align:left;">
-        <thead>
-            <tr>
-                <th>nom</th>
-                <th>prenom</th>
-                
-                <th>description</th>
-                <th>domaine</th>
-                <th>experience</th>
-            </tr>                
-        </thead>
-        <tbody>
-
-        </tbody>
-    </table>
+  <form method="POST" action="create.php">
+    CV <br> 
+    nom <input type="text" name = "nom"><br>
+    prenom <input type="text" name = "prenom"><br>
+    description <input type="text" name = "description"><br>
+    domaine <input type="text" name = "domaine"><br>
+    experience <input type="text" name = "experience"><br>
+    <input type="submit" name="create" value="creer">
+  </form>
 </div>
 <!-- début du footer-->
 <div class="container-fluid" id="footer">
