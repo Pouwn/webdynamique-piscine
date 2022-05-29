@@ -1,47 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7af96541-c778-4d9b-ac43-07fd8945852f" name="Changes" comment="add bdd">
+    <list default="true" id="7af96541-c778-4d9b-ac43-07fd8945852f" name="Changes" comment="image added">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ac.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/Accueil1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/LOGO.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/Medecin_Generaliste_CV_01 (1).svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/Medecin_Generaliste_CV_01.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/TN1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/acceuil.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/campus-parisien-ece.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/campus.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/depositphotos_16872383-stock-photo-scientists-working-at-the-laboratory.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/depositphotos_74956115-stock-photo-doctors-office-doctor-waiting-room.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/depositphotos_80150956-stock-photo-confident-female-doctor-at-office.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/doc1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/doc2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/doc3.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/f2f697363ea78141cb664a2a9c91143f.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/icon/align-justify.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/icon/envelope-of-white-paper.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/icon/linkedin-sign.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/icon/microphone-black-shape.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/icon/picture.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/icon/remove-symbol.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/icon/right-arrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/icon/speech-bubbles-comment-option.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/icon/telephone-handle-silhouette.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/icon/utilisateur.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/image accueil" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/logo2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/med1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/med2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/med3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/med4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/omnes.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/sante.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/savoir1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/sourire-docteur-masculin-image-sous-licence_csp1500366.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/welcome.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,20 +17,34 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="29ncT6Q9OuFquFT9XNrNJKK6Lz8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="vue.rearranger.settings.migration" value="true" />
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/christrova/PhpstormProjects/webdynamique-piscine",
+    "settings.editor.selected.configurable": "web-ide.project.structure",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -81,6 +59,7 @@
       <workItem from="1653753589231" duration="1483000" />
       <workItem from="1653784252444" duration="14000" />
       <workItem from="1653784303482" duration="316000" />
+      <workItem from="1653830468969" duration="933000" />
     </task>
     <task id="LOCAL-00001" summary="add bdd">
       <created>1653753341409</created>
@@ -89,7 +68,28 @@
       <option name="project" value="LOCAL" />
       <updated>1653753341409</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="espace perso client">
+      <created>1653786921534</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1653786921536</updated>
+    </task>
+    <task id="LOCAL-00003" summary="modif inscription">
+      <created>1653813943065</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1653813943066</updated>
+    </task>
+    <task id="LOCAL-00004" summary="image added">
+      <created>1653814184322</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1653814184322</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,6 +108,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add bdd" />
-    <option name="LAST_COMMIT_MESSAGE" value="add bdd" />
+    <MESSAGE value="espace perso client" />
+    <MESSAGE value="modif inscription" />
+    <MESSAGE value="image added" />
+    <option name="LAST_COMMIT_MESSAGE" value="image added" />
   </component>
 </project>

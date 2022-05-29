@@ -64,11 +64,17 @@
 }
 
 .button{
+
     width:120px;
     height:42px;
     background-color:white;
     color:black;
     border-radius:60px;
+}
+
+a {
+    text-decoration:none;
+    color:black;
 }
 
 .button:hover{
