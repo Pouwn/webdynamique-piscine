@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title> Page d'Accueil </title>
+</head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<link rel="stylesheet" href="../header_footer/header_footer.css">
+<body>
+<form id="general">
+<div class="container-fluid"id="header">
+	<div class="row ">
+    <ul class="nav nav-pills align-items-center">
+    <div class="col"><li class="nav-item">
+      <img src="../image/LOGO.png" width="200" height="200"></li>
+    </div>
+    <div class="col offset-1">      <li class="nav-item">
+      <a class="nav-link active"  href="#">Accueil</a>
+    </li></div>
+    <div class="col offset-1">      <li class="nav-item">
+      <a class="nav-link active"  href="#">mon compte</a>
+    </li></div>
+    <div class="col offset-1">      <li class="nav-item">
+      <a class="nav-link active"  href="#">tout parcourir</a>
+    </li></div>
+    <div class="col offset-1">      <li class="nav-item">
+      <a class="nav-link active"  href="#">rendez-vous</a>
+    </li></div>
+  </ul>
+  </div>
+</div>
+<!-- fin du header -->
+
+<div class="container-fluid">
+    <div class="row text-center">
+        <div class="col-xl-12 text-center">
+            <img src="images/labo.jpeg">
+            <table>
+                <tr>
+                    <td>Salle: </td>
+                    <td>SC-0637</td>
+                </tr>
+                <tr>
+                    <td>Téléphone: </td>
+                    <td>+33605539885</td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td>omnescenter@gmail.com</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+<!-- début du footer-->
+<div class="container-fluid" id="footer">
+    <div class="row">
+      <div class="col">position<br>
+        <!-- lien pour la carte google map-->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.351678858319!2d2.285043715830529!3d48.
+        851503909145414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e6700497ee3ec5%3A0xdd60f514adcdb346!2s37%20Quai%20de%20Grenelle%2C%2075015%20Paris!
+        5e0!3m2!1sfr!2sfr!4v1653397775905!5m2!1sfr!2sfr"
+         width="auto" height="auto" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div class="col" id="midlefooter">email</div>
+  
+      <div class="col">contact</div>
+  
+    </div>
+  </div>
+    <!-- fin du footer-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" 
+  integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+ /* if(window.XMLHttpRequest)
+   {
+       xmlhttp=new XMLHttpRequest();
+   }
+   else {
+       xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+   }
+   xmlhttp.open("GET","admin_xml_CV.xml", false);
+  xmlhttp.send();
+  xmlDoc=xmlhttp.responseXML;
+  document.write("table border='1' width='50%'style='font-size:35px;'>");
+  document.write("<tr><th>nom</th><th>prenom</th><th>description</th><th>domaine</th><th>experience</th>");
+    var x=xmlDoc.getElementsByTagName("nom");
+    for(i=0;i<x.length;i++)
+     {
+         document.write("<tr><td>");
+         document.write(xmlDoc.getElementsByTagName("nom")[i].childNodes[0].nodeValue);
+         document.write("</td><td>");
+        document.write(xmlDoc.getElementsByTagName("prenom")[i].childNodes[0].nodeValue);
+        document.write("</td><td>");
+        document.write(xmlDoc.getElementsByTagName("description")[i].childNodes[0].nodeValue);
+        document.write("</td><td>");
+        document.write(xmlDoc.getElementsByTagName("domaine")[i].childNodes[0].nodeValue);
+        document.write("</td><td>");
+        document.write(xmlDoc.getElementsByTagName("experience")[i].childNodes[0].nodeValue);
+        document.write("</td></tr>");
+     }
+     document.write("</table>"); */
+     let xmlContent = '';
+        let tableMedecin = document.getElementById('medecin');
+        fetch('admin.xml').then((response)=> {
+            response.text().then((xml)=>{
+                xmlContent = xml;
+
+                let parser = new DOMParser();
+                let xmlDOM = parser.parseFromString(xmlContent, 'application/xml');
+                let medecins = xmlDOM.querySelectorAll('medecin');
+
+                medecins.forEach(medecinXmlNode => {
+
+                    let row = document.createElement('tr');
+
+                    //author
+                    let td = document.createElement('td');
+                    td.innerText = medecinXmlNode.children[0].innerHTML;
+                    row.appendChild(td);
+
+                    //  title
+                    td = document.createElement('td');
+                    td.innerText = medecinXmlNode.children[1].innerHTML;
+                    row.appendChild(td);
+                    
+                    //price
+                    td = document.createElement('td');
+                    td.innerText = '$ ' + medecinXmlNode.children[3].innerHTML;
+                    row.appendChild(td);
+
+                    //price
+                    td = document.createElement('td');
+                    td.innerText = '$ ' + medecinXmlNode.children[4].innerHTML;
+                    row.appendChild(td);
+
+                    //description
+                    td = document.createElement('td');
+                    td.innerText = medecinXmlNode.children[5].innerHTML;
+                    row.appendChild(td);
+
+                    tableMedecin.children[1].appendChild(row);
+                    
+                });
+                
+            });
+        }); 
+  </script>
+  </body>
+  </html>
