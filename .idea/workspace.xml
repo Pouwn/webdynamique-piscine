@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7af96541-c778-4d9b-ac43-07fd8945852f" name="Changes" comment="last taff">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/profilclient/profil_client.php" beforeDir="false" afterPath="$PROJECT_DIR$/profilclient/profil_client.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +66,7 @@
       <workItem from="1653784252444" duration="14000" />
       <workItem from="1653784303482" duration="316000" />
       <workItem from="1653830468969" duration="933000" />
-      <workItem from="1653845606630" duration="10122000" />
+      <workItem from="1653845606630" duration="11273000" />
     </task>
     <task id="LOCAL-00001" summary="add bdd">
       <created>1653753341409</created>
@@ -144,7 +145,21 @@
       <option name="project" value="LOCAL" />
       <updated>1653855017586</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="last taff">
+      <created>1653855915828</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1653855915830</updated>
+    </task>
+    <task id="LOCAL-00013" summary="last taff">
+      <created>1653856102310</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1653856102310</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

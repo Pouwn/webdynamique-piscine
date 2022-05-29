@@ -52,9 +52,10 @@ session_start();
     <div class="info">
         <?php
 
-        $sql = $db->prepare('SELECT Nom_Client FROM Client where Email_client="abessolo@gmail.com"');
-        $exe = $sql->execute();
-        $nom = $exe->fetchAll(PDO::FETCH_COLUMN);
+        $req = "SELECT Nom_Client FROM Client WHERE Email_client='abessolo@gmail.com' ";
+        $result = mysqli_query($db, $req);
+        $valueT = mysqli_fetch_assoc($result);
+        $nom = $valueT["Nom_Client"];
         echo $nom;
         ?><br>
 
