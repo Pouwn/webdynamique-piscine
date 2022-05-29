@@ -53,8 +53,8 @@ session_start();
         <?php
 
         $sql = $db->prepare('SELECT Nom_Client FROM Client where Email_client="abessolo@gmail.com"');
-        $sql->execute();
-        $nom = $sql->fetchAll(PDO::FETCH_COLUMN);
+        $exe = $sql->execute();
+        $nom = $exe->fetchAll(PDO::FETCH_COLUMN);
         echo $nom;
         ?><br>
 
